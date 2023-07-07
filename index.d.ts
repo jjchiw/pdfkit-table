@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 declare module 'pdfkit-table' {
   import PDFDocument from 'pdfkit';
-=======
-declare module 'pdfkit-table'
-{
-	import PDFDocument from 'pdfkit';
->>>>>>> f42da84c29f3e170a92ef44d0337a7391ae08f15
 
   interface Rect {
     x: number;
@@ -99,6 +93,6 @@ declare module 'pdfkit-table'
     public table(table: Table, options?: Options): Promise<void>;
   }
 
-	// export = PDFDocumentWithTables;
-	export default PDFDocumentWithTables;
+  // export = PDFDocumentWithTables;
+  export default PDFDocumentWithTables;
 }
